@@ -1,6 +1,6 @@
 <?php
 
-use App\Kernel;
+use Bolton\Kernel;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
 

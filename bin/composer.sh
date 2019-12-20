@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-docker-compose exec bolton composer "$@"
+DOCKER_COMPOSE_FILE=$(dirname "$(readlink -f "$0")")/../docker-compose.yaml
+docker-compose -f ${DOCKER_COMPOSE_FILE} exec bolton composer "$@"

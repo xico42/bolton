@@ -1,6 +1,7 @@
 ###> fcoedno/bolton ###
 /.idea
 /docker-compose.yaml
+/.deptrac.cache
 ###< fcoedno/bolton ###
 
 ###> symfony/framework-bundle ###

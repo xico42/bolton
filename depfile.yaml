@@ -1,0 +1,19 @@
+paths:
+  - ./src
+exclude_files:
+  - .*test.*
+layers:
+  - name: Infrastructure
+    collectors:
+      - type: directory
+        regex: src/Invoice/Infrastructure/.*
+  - name: Domain
+    collectors:
+      - type: directory
+        regex: src/Invoice/Domain/.*
+ruleset:
+  Infrastructure:
+    - Infrastructure
+    - Domain
+  Domain:
+    - Domain
