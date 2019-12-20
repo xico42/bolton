@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Bolton" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+    <config name="installed_paths"
+            value="vendor/object-calisthenics/phpcs-calisthenics-rules/src/,vendor/wp-coding-standards/wpcs/,vendor/escapestudios/symfony2-coding-standard/Symfony/,vendor/slevomat/coding-standard/"/>
+    <config name="ignore_warnings_on_exit" value="1"/>
+    <arg name="basepath" value="."/>
+    <arg name="cache" value="var/.phpcs-cache"/>
+    <arg name="colors"/>
+    <arg name="extensions" value="php"/>
+    <file>src/</file>
+    <file>tests/</file>
+    <exclude-pattern>src/Migrations/*</exclude-pattern>
+    <rule ref="PSR1"/>
+    <rule ref="PSR2"/>
+    <rule ref="PSR12"/>
+</ruleset>
