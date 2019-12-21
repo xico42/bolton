@@ -71,7 +71,8 @@ In order to ensure a good code quality, the following tools are being applied:
 
  1. *PHP Mess Detector:* For preventing bad code
  2. *PHP Code Sniffer:* For enforcing a coding standard
- 3. *Deptrac:* For enforcing the dependency rule between the software layers
+ 3. *PHP Stan:* For static code analysis
+ 4. *Deptrac:* For enforcing the dependency rule between the software layers
 
 ### Technologies
 

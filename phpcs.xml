@@ -10,7 +10,7 @@
     <arg name="extensions" value="php"/>
     <file>src/</file>
     <file>tests/</file>
-    <exclude-pattern>src/Migrations/*</exclude-pattern>
+    <exclude-pattern>src/Invoice/Infrastructure/Framework/Migrations/*</exclude-pattern>
     <rule ref="PSR1"/>
     <rule ref="PSR2"/>
     <rule ref="PSR12"/>
