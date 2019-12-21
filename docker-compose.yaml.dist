@@ -1,5 +1,11 @@
 version: '3'
 services:
+  bolton:
+    image: fcoedno/php:7.4-fpm-dev
+    volumes:
+      - ./:/code
+      - composercache:/root/.composer
+    working_dir: /code
   database:
     image: mariadb:10
     volumes:
@@ -9,12 +15,15 @@ services:
     environment:
       - MYSQL_DATABASE=bolton
       - MYSQL_ROOT_PASSWORD=root
-  bolton:
-    image: fcoedno/php:7.4-fpm-dev
+  database_test:
+    image: mariadb:10
     volumes:
-      - ./:/code
-      - composercache:/root/.composer
-    working_dir: /code
+      - database_test_data:/var/lib/mysql
+    ports:
+      - 4541:3306
+    environment:
+      - MYSQL_DATABASE=bolton
+      - MYSQL_ROOT_PASSWORD=root
   web:
     image: fcoedno/nginx:1.13.8-dev
     volumes:
@@ -26,6 +35,9 @@ services:
     environment:
       - NGINX_ROOT=/code/public
       - NGINX_FPM_HOST=bolton
+  wait:
+    image: willwill/wait-for-it
 volumes:
+  database_test_data:
   database_data:
   composercache:

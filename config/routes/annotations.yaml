@@ -1,0 +1,3 @@
+controllers:
+    resource: ../../src/Invoice/Infrastructure/UserInterface/API/
+    type: annotation
