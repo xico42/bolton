@@ -330,6 +330,12 @@
             "src/Kernel.php"
         ]
     },
+    "symfony/http-client": {
+        "version": "v4.4.2"
+    },
+    "symfony/http-client-contracts": {
+        "version": "v2.0.1"
+    },
     "symfony/http-foundation": {
         "version": "v4.4.2"
     },
@@ -383,6 +389,9 @@
             "config/routes.yaml"
         ]
     },
+    "symfony/serializer": {
+        "version": "v4.4.2"
+    },
     "symfony/service-contracts": {
         "version": "v2.0.1"
     },
@@ -408,6 +417,12 @@
         "version": "3.4.1"
     },
     "zendframework/zend-eventmanager": {
+        "version": "3.2.1"
+    },
+    "zendframework/zend-paginator": {
+        "version": "2.8.2"
+    },
+    "zendframework/zend-stdlib": {
         "version": "3.2.1"
     }
 }

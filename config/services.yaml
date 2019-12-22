@@ -31,3 +31,12 @@ services:
     Bolton\Invoice\Domain\Model\InvoiceRepository:
         alias: 'Bolton\Invoice\Infrastructure\Repository\Doctrine\DoctrineInvoiceRepository'
 
+    Bolton\Invoice\Domain\ImportInvoice\InvoiceSource:
+        alias: 'Bolton\Invoice\Infrastructure\InvoiceSource\ArquiveiAPI\ArquiveiInvoiceSource'
+
+    Bolton\Invoice\Infrastructure\InvoiceSource\ArquiveiAPI\ArquiveiCredentials:
+        arguments:
+            - '%env(resolve:ARQUIVEI_API_ENDPOINT)%'
+            - '%env(resolve:ARQUIVEI_API_ID)%'
+            - '%env(resolve:ARQUIVEI_API_KEY)%'
+

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="3.10">
+  <NFe>
+    <infNFe Id="NFe31170213481309019535550120026847481270524261" versao="3.10">
+      <ide>
+        <cUF>31</cUF>
+        <cNF>27052426</cNF>
+        <natOp>Venda de mercadoria, destinada</natOp>
+        <indPag>2</indPag>
+        <mod>55</mod>
+        <serie>12</serie>
+        <nNF>2684748</nNF>
+        <dhEmi>2017-02-14T17:29:40-02:00</dhEmi>
+        <dhSaiEnt>2017-02-14T17:29:40-02:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>2</idDest>
+        <cMunFG>3118601</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>1</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>3</indPres>
+        <procEmi>0</procEmi>
+        <verProc>ELDOC</verProc>
+      </ide>
+      <emit>
+        <CNPJ>13481309019535</CNPJ>
+        <xNome>RN COMERCIO VAREJISTA S.A</xNome>
+        <enderEmit>
+          <xLgr>RUA UM</xLgr>
+          <nro>60</nro>
+          <xCpl>GALPAO ANEXO</xCpl>
+          <xBairro>ARVOREDO II</xBairro>
+          <cMun>3118601</cMun>
+          <xMun>Contagem</xMun>
+          <UF>MG</UF>
+          <CEP>32113500</CEP>
+          <xPais>BRASIL</xPais>
+          <fone>03133591700</fone>
+        </enderEmit>
+        <IE>0018131986853</IE>
+        <IEST>064787583</IEST>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CPF>74033607185</CPF>
+        <xNome>Fulana de Tal das Dores</xNome>
+        <enderDest>
+          <xLgr>Rua Afonso Lopes</xLgr>
+          <nro>862</nro>
+          <xBairro>Parque Dois Irmaos</xBairro>
+          <cMun>2304400</cMun>
+          <xMun>Fortaleza</xMun>
+          <UF>CE</UF>
+          <CEP>60743218</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+          <fone>85665875251</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+        <email>fulana.dores@gmail.com</email>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>643671</cProd>
+          <cEAN>7891112203655</cEAN>
+          <xProd>JOGO PANELAS ALUMINIO 5PC TURIM,(EXCLUSIVO) VERMELHO - Tramontina</xProd>
+          <NCM>76151000</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>146.68000</vUnCom>
+          <vProd>146.68</vProd>
+          <cEANTrib>7891112203655</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>146.68000</vUnTrib>
+          <vDesc>35.22</vDesc>
+          <indTot>1</indTot>
+          <nFCI>08B84E3F-2EF2-420A-84EF-D61354D4B17E</nFCI>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>5</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>111.46</vBC>
+              <pICMS>7.00</pICMS>
+              <vICMS>7.80</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>111.46</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>1.84</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>111.46</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>8.47</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+          <ICMSUFDest>
+            <vBCUFDest>111.46</vBCUFDest>
+            <pFCPUFDest>0.00</pFCPUFDest>
+            <pICMSUFDest>17.00</pICMSUFDest>
+            <pICMSInter>7.00</pICMSInter>
+            <pICMSInterPart>60</pICMSInterPart>
+            <vFCPUFDest>0.00</vFCPUFDest>
+            <vICMSUFDest>6.69</vICMSUFDest>
+            <vICMSUFRemet>4.46</vICMSUFRemet>
+          </ICMSUFDest>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>643676</cProd>
+          <cEAN>7891112203679</cEAN>
+          <xProd>JOGO PANELAS ALUMINIO 4PC TURIM,(EXCLUSIVO) VERMELHO - Tramontina</xProd>
+          <NCM>76151000</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>103.22000</vUnCom>
+          <vProd>103.22</vProd>
+          <cEANTrib>7891112203679</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>103.22000</vUnTrib>
+          <vDesc>24.78</vDesc>
+          <indTot>1</indTot>
+          <nFCI>BB1416FE-181B-423F-B1AF-A4E8878C01F3</nFCI>
+        </prod>
+        <imposto>
+          <ICMS>
+            <ICMS00>
+              <orig>5</orig>
+              <CST>00</CST>
+              <modBC>3</modBC>
+              <vBC>78.44</vBC>
+              <pICMS>7.00</pICMS>
+              <vICMS>5.49</vICMS>
+            </ICMS00>
+          </ICMS>
+          <PIS>
+            <PISAliq>
+              <CST>01</CST>
+              <vBC>78.44</vBC>
+              <pPIS>1.65</pPIS>
+              <vPIS>1.29</vPIS>
+            </PISAliq>
+          </PIS>
+          <COFINS>
+            <COFINSAliq>
+              <CST>01</CST>
+              <vBC>78.44</vBC>
+              <pCOFINS>7.60</pCOFINS>
+              <vCOFINS>5.96</vCOFINS>
+            </COFINSAliq>
+          </COFINS>
+          <ICMSUFDest>
+            <vBCUFDest>78.44</vBCUFDest>
+            <pFCPUFDest>0.00</pFCPUFDest>
+            <pICMSUFDest>17.00</pICMSUFDest>
+            <pICMSInter>7.00</pICMSInter>
+            <pICMSInterPart>60</pICMSInterPart>
+            <vFCPUFDest>0.00</vFCPUFDest>
+            <vICMSUFDest>4.71</vICMSUFDest>
+            <vICMSUFRemet>3.13</vICMSUFRemet>
+          </ICMSUFDest>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>189.90</vBC>
+          <vICMS>13.29</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vICMSUFDest>11.40</vICMSUFDest>
+          <vICMSUFRemet>7.59</vICMSUFRemet>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vProd>249.90</vProd>
+          <vFrete>0.00</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>60.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>3.13</vPIS>
+          <vCOFINS>14.43</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>189.90</vNF>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <transporta>
+          <CNPJ>19727878000666</CNPJ>
+          <xNome>TOPLOG Logistica e Transporte Rodoviario LTDA</xNome>
+          <IE>0023977050117</IE>
+          <xEnder>WILSONnTAVARESnRIBEIRO</xEnder>
+          <xMun>Contagem</xMun>
+          <UF>MG</UF>
+        </transporta>
+        <vol>
+          <qVol>2</qVol>
+          <esp>DIG</esp>
+          <pesoL>4.000</pesoL>
+          <pesoB>4.000</pesoB>
+        </vol>
+      </transp>
+      <infAdic>
+        <infCpl>EANS/WMS ITENS 7891112203655 7891112203679 Pedido do cliente nd 29697383.  Impostos Pagos: COFINS: R$ 14.43 (7,60%) ICMS: R$ 13.29 (7,00%) PIS: R$ 3.13 (1,65%) Valores totais do ICMS Interestadual: DIFAL da UF destino R$11.40; DIFAL da UF Origem R$7.59.</infCpl>
+        <obsCont xCampo="unidadeNeg">
+          <xTexto>RicardoEletro</xTexto>
+        </obsCont>
+        <obsCont xCampo="id_nota">
+          <xTexto>8089251</xTexto>
+        </obsCont>
+      </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe31170213481309019535550120026847481270524261">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>G9w2tTHlKicfzOEVYuTllkRgtN8=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>XlpTqB2/w+0obUx6gvndj1/OdN0uxLlkyXgBvheGM698cRGfCp8TZoPnS/9ZEdamRFCWfgLyNqR/
+3fHoigfcr4B230hHV/05VeDmWyJS/Pz20RijmAs/WemEYbf7cIuyDnqQONo+rK/T6ZoqkylTEv7O
+285/9+SM0C/S8ZBlTn32zjY0QdzjWiCeImACTWu9OG5dXZWrqfs2juhnGEujlfmkxiWHsBSj+/oR
+KsErDn1qpZJxKnd8ZhPQ2m3p1TRZ6AwR5UVlmeNH4lvp3dg2wJGVK1uWqPkdhlpR9F3ovxHLoczn
+PHkloOhVyXF3/ypb+eB4LzQOQDPN2n5WIOK3Rw==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIIWDCCBkCgAwIBAgIQOAbt3QWXJ0HEj96l1jXk0DANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc0MB4X
+DTE2MDkwMTAwMDAwMFoXDTE3MDgzMTIzNTk1OVowgfIxCzAJBgNVBAYTAkJSMRMwEQYDVQQKFApJ
+Q1AtQnJhc2lsMQswCQYDVQQIEwJCQTEdMBsGA1UEBxQUdml0b3JpYSBkYSBjb25xdWlzdGExNjA0
+BgNVBAsULVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQG
+A1UECxQNUkZCIGUtQ05QSiBBMTEfMB0GA1UECxQWQXV0ZW50aWNhZG8gcG9yIEFSIEFCTDExMC8G
+A1UEAxMoUk4gQ09NRVJDSU8gVkFSRUpJU1RBIFMgQToxMzQ4MTMwOTAwMDE5MjCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAM11Yj+7mJe1sXu5bXABRxOPNWtl3+UvVCjvt3Yv8Fbpvn/t
+SIAs6geVjTi07aRDWfkaEEJxLbTthojYhNKQYU5XKB5V1JwEZf3Di0ueqfGzayryMyaEzmXISxdJ
+4ni9rXVyUMxmVwupaW5iBEzSitOfA0GAneLoZRk0w8auNh2TJNyRVbZDwwlYQp8xwp4v3f4o6/DA
+VkHYtphM5OAwshCLwjyQunqJszq2Tm3akACjnplYCFlicVG8E637HzzqdyYOGA+YYhbFc2mcFENC
+yDLz6CnAH31R0arAQjIKsS61tYN6vcwRPGDw/Tpvu5IAbRpymP2QkNfxUutgkAmqyrkCAwEAAaOC
+A2EwggNdMIHGBgNVHREEgb4wgbugPQYFYEwBAwSgNAQyMjEwNTE5NzExMDI5ODg0Mjg1ODAwMDAw
+MDAwMDAwMDAwMDAwMDE4NjEwNTEzU1NQU1CgIQYFYEwBAwKgGAQWUEVEUk8gREFOSUVMIE1BR0FM
+SEFFU6AZBgVgTAEDA6AQBA4xMzQ4MTMwOTAwMDE5MqAXBgVgTAEDB6AOBAwwMDAwMDAwMDAwMDCB
+I21hcmNvcy5hbnRvbmlvQHJpY2FyZG9lbGV0cm8uY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgw
+FoAULpHq1m3lslmC3DiFKXY0FlY80D4wDgYDVR0PAQH/BAQDAgXgMH8GA1UdIAR4MHYwdAYGYEwB
+AgEMMGowaAYIKwYBBQUHAgEWXGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVw
+b3NpdG9yaW8vZHBjL0FDX0NlcnRpc2lnbl9SRkIvRFBDX0FDX0NlcnRpc2lnbl9SRkIucGRmMIIB
+FgYDVR0fBIIBDTCCAQkwV6BVoFOGUWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIv
+cmVwb3NpdG9yaW8vbGNyL0FDQ2VydGlzaWduUkZCRzQvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0
+cDovL2ljcC1icmFzaWwub3V0cmFsY3IuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2ln
+blJGQkc0L0xhdGVzdENSTC5jcmwwVqBUoFKGUGh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwu
+Z292LmJyL2xjci9DZXJ0aXNpZ24vQUNDZXJ0aXNpZ25SRkJHNC9MYXRlc3RDUkwuY3JsMB0GA1Ud
+JQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBmwYIKwYBBQUHAQEEgY4wgYswXwYIKwYBBQUHMAKG
+U2h0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNh
+ZG9zL0FDX0NlcnRpc2lnbl9SRkJfRzQucDdjMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC5jZXJ0
+aXNpZ24uY29tLmJyMA0GCSqGSIb3DQEBCwUAA4ICAQAI8iLBV00oY5rqdU38NvPpwA8zZicVX8CV
+O4I5mIGeVHB7YOwyr130R6/usRf8HOswq2s/2TWz8aABOoa80v8gnPkQQ+e01HW/ng1xofPU5OMm
+m78hLVVFvNHLoOCVEGbGy/8jlvYUf/Z2OCxMxg0WV4Pk00i9UipcfDTVbIpbOzdCGaq1gF99V/j/
+Mv6jjZxRbndnjYkhGRJ3bMNtgtYdwra5SH5J9ciu+Y7+n5LFdb0jHMXdNB4MIy/x52lHbDUHVFU+
+E7SKCoU+sejzGECP8dFmQcFvgdmYiWQ5r3yVJD835FHLmsm7sSQb7RWZXb+R38aUm00WP7LPsFzi
+hCR3Vs/Wxm9Z6sZB8oJl7xDWg1R9FRHxQud7B4n9vpSrJZiLPaUt8xgrsAEAT80ZyTR//EjLpOM5
+d2NzPsSz+OO+O/NIGZl16lYTRN8H3/mdA2Q/AZbKeX3U72fxn6L7m23xf2noomoznz3VBP05pwrc
+3TF81RIh9CLmR0V9w/odDsnnTUTbdSDlifvxWxqUD35ORkPg7GOUe8ywXa9rO24961as/MaL+wYl
+yj/U44CRKr7D0llTodzRNeInwYBBZzeRQdlYRv2CblIsVZ1jUNPhis2NV5nCpNOBg6Vwq/nSaNYO
+zDBLaS4/fPhXux2aUzun+opjPrjy6z8GUSFIgV+lJw==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="3.10">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>14_0_17</verAplic>
+      <chNFe>31170213481309019535550120026847481270524261</chNFe>
+      <dhRecbto>2017-02-14T17:45:00-02:00</dhRecbto>
+      <nProt>131172457034247</nProt>
+      <digVal>G9w2tTHlKicfzOEVYuTllkRgtN8=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

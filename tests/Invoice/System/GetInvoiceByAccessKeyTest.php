@@ -6,24 +6,18 @@ namespace Bolton\Tests\Invoice\System;
 
 use Bolton\Invoice\Domain\Model\Invoice;
 use Bolton\Invoice\Domain\Model\InvoiceRepository;
-use Bolton\Invoice\Infrastructure\Common\DatabaseCleaner;
 use Coduo\PHPMatcher\PHPUnit\PHPMatcherAssertions;
-use Doctrine\ORM\EntityManagerInterface;
-use Symfony\Bundle\FrameworkBundle\KernelBrowser;
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class GetInvoiceByAccessKeyTest extends WebTestCase
+class GetInvoiceByAccessKeyTest extends SystemTestCase
 {
     use PHPMatcherAssertions;
 
     protected function setUp(): void
     {
         parent::setUp();
-        self::bootKernel();
-        $entityManager = self::$container->get(EntityManagerInterface::class);
-        (new DatabaseCleaner($entityManager))->cleanDatabase();
 
-        $repository = self::$container->get(InvoiceRepository::class);
+        /** @var InvoiceRepository $repository */
+        $repository = $this->get(InvoiceRepository::class);
         $repository->save(
             new Invoice(
                 $repository->nextIdentity(),
@@ -38,9 +32,8 @@ class GetInvoiceByAccessKeyTest extends WebTestCase
      */
     public function shouldReturnTheInvoiceByItsAccessKey(): void
     {
-        $client = $this->getApiClient();
-        $client->request('GET', '/api/invoice/31170213481309019535550120026847481270524261');
-        $responseContent = $client->getResponse()->getContent();
+        $this->client->request('GET', '/api/invoice/31170213481309019535550120026847481270524261');
+        $responseContent = $this->client->getResponse()->getContent();
 
         $expectedJson = <<<JSON
         {
@@ -50,10 +43,5 @@ class GetInvoiceByAccessKeyTest extends WebTestCase
         JSON;
 
         $this->assertMatchesPattern($expectedJson, $responseContent);
-    }
-
-    private function getApiClient(): KernelBrowser
-    {
-        return self::$container->get('test.client');
     }
 }

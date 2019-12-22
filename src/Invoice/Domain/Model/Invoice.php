@@ -34,27 +34,23 @@ class Invoice
         $this->value = $value;
     }
 
-    /**
-     * @return string
-     */
     public function getAccessKey(): string
     {
         return $this->accessKey;
     }
 
-    /**
-     * @return string
-     */
     public function getId(): string
     {
         return $this->id;
     }
 
-    /**
-     * @return float
-     */
     public function getValue(): float
     {
         return $this->value;
+    }
+
+    public function updateValue(float $newValue): void
+    {
+        $this->value = $newValue;
     }
 }
