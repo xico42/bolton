@@ -28,8 +28,8 @@ class InvoiceControllerTest extends TestCase
 
         $repository->save($invoice);
 
-        $controller = new InvoiceController($repository);
-        $response = $controller->getInvoice($accessKey);
+        $controller = new InvoiceController();
+        $response = $controller->getInvoice($accessKey, $repository);
 
         $this->assertEquals(
             new JsonResponse([
@@ -49,8 +49,8 @@ class InvoiceControllerTest extends TestCase
         $accessKey = '31170213481309019535550120026847481270524261';
 
 
-        $controller = new InvoiceController($repository);
-        $response = $controller->getInvoice($accessKey);
+        $controller = new InvoiceController();
+        $response = $controller->getInvoice($accessKey, $repository);
 
         $this->assertEquals(
             new JsonResponse([

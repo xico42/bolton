@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:nfeProc xmlns:ns0="http://www.portalfiscal.inf.br/nfe" versao="3.10">
+  <ns0:NFe>
+    <ns0:infNFe versao="3.10" Id="NFe31160811200418000673550010035830601384132439">
+      <ns0:ide>
+        <ns0:cUF>31</ns0:cUF>
+        <ns0:cNF>38413243</ns0:cNF>
+        <ns0:natOp>Venda merc.adq.rec.terceiros dest.n contribuinte</ns0:natOp>
+        <ns0:indPag>0</ns0:indPag>
+        <ns0:mod>55</ns0:mod>
+        <ns0:serie>1</ns0:serie>
+        <ns0:nNF>3583060</ns0:nNF>
+        <ns0:dhEmi>2016-08-16T06:25:17-03:00</ns0:dhEmi>
+        <ns0:tpNF>1</ns0:tpNF>
+        <ns0:idDest>2</ns0:idDest>
+        <ns0:cMunFG>3125101</ns0:cMunFG>
+        <ns0:tpImp>1</ns0:tpImp>
+        <ns0:tpEmis>1</ns0:tpEmis>
+        <ns0:cDV>9</ns0:cDV>
+        <ns0:tpAmb>1</ns0:tpAmb>
+        <ns0:finNFe>1</ns0:finNFe>
+        <ns0:indFinal>1</ns0:indFinal>
+        <ns0:indPres>2</ns0:indPres>
+        <ns0:procEmi>0</ns0:procEmi>
+        <ns0:verProc>SAP NFE 3.10</ns0:verProc>
+      </ns0:ide>
+      <ns0:emit>
+        <ns0:CNPJ>11200418000673</ns0:CNPJ>
+        <ns0:xNome>GFG COMERCIO DIGITAL LTDA</ns0:xNome>
+        <ns0:xFant>GFG COMERCIO DIGITAL LTDA</ns0:xFant>
+        <ns0:enderEmit>
+          <ns0:xLgr>RUA MARIA MARGARIDA PINTO</ns0:xLgr>
+          <ns0:nro>S/N</ns0:nro>
+          <ns0:xBairro>DOS PIRES</ns0:xBairro>
+          <ns0:cMun>3125101</ns0:cMun>
+          <ns0:xMun>EXTREMA</ns0:xMun>
+          <ns0:UF>MG</ns0:UF>
+          <ns0:CEP>37640000</ns0:CEP>
+          <ns0:xPais>Brasil</ns0:xPais>
+          <ns0:fone>1130537500</ns0:fone>
+        </ns0:enderEmit>
+        <ns0:IE>0025374270052</ns0:IE>
+        <ns0:IEST>064779831</ns0:IEST>
+        <ns0:CRT>3</ns0:CRT>
+      </ns0:emit>
+      <ns0:dest>
+        <ns0:CPF>74033607185</ns0:CPF>
+        <ns0:xNome>Fulana de Tal das Dores</ns0:xNome>
+        <ns0:enderDest>
+          <ns0:xLgr>Rua Bons Amigos 1021</ns0:xLgr>
+          <ns0:nro>1021</ns0:nro>
+          <ns0:xBairro>PLANALTO AYRTON SENNA</ns0:xBairro>
+          <ns0:cMun>2304400</ns0:cMun>
+          <ns0:xMun>FORTALEZA</ns0:xMun>
+          <ns0:UF>CE</ns0:UF>
+          <ns0:CEP>60750663</ns0:CEP>
+          <ns0:cPais>1058</ns0:cPais>
+          <ns0:xPais>Brasil</ns0:xPais>
+          <ns0:fone>85665875251</ns0:fone>
+        </ns0:enderDest>
+        <ns0:indIEDest>9</ns0:indIEDest>
+      </ns0:dest>
+      <ns0:det nItem="1">
+        <ns0:prod>
+          <ns0:cProd>000000002235319004</ns0:cProd>
+          <ns0:cEAN />
+          <ns0:xProd>Sapatenis C0127 Fiveblu Preto, 41</ns0:xProd>
+          <ns0:NCM>64051010</ns0:NCM>
+          <ns0:CFOP>6108</ns0:CFOP>
+          <ns0:uCom>PEC</ns0:uCom>
+          <ns0:qCom>1.0000</ns0:qCom>
+          <ns0:vUnCom>89.9000000000</ns0:vUnCom>
+          <ns0:vProd>89.90</ns0:vProd>
+          <ns0:cEANTrib />
+          <ns0:uTrib>PEC</ns0:uTrib>
+          <ns0:qTrib>1.0000</ns0:qTrib>
+          <ns0:vUnTrib>89.9000000000</ns0:vUnTrib>
+          <ns0:vDesc>40.40</ns0:vDesc>
+          <ns0:indTot>1</ns0:indTot>
+          <ns0:xPed>49774777</ns0:xPed>
+        </ns0:prod>
+        <ns0:imposto>
+          <ns0:ICMS>
+            <ns0:ICMS00>
+              <ns0:orig>0</ns0:orig>
+              <ns0:CST>00</ns0:CST>
+              <ns0:modBC>3</ns0:modBC>
+              <ns0:vBC>49.50</ns0:vBC>
+              <ns0:pICMS>7.0000</ns0:pICMS>
+              <ns0:vICMS>3.47</ns0:vICMS>
+            </ns0:ICMS00>
+          </ns0:ICMS>
+          <ns0:IPI>
+            <ns0:cEnq>999</ns0:cEnq>
+            <ns0:IPINT>
+              <ns0:CST>53</ns0:CST>
+            </ns0:IPINT>
+          </ns0:IPI>
+          <ns0:PIS>
+            <ns0:PISAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>49.50</ns0:vBC>
+              <ns0:pPIS>1.6500</ns0:pPIS>
+              <ns0:vPIS>0.82</ns0:vPIS>
+            </ns0:PISAliq>
+          </ns0:PIS>
+          <ns0:COFINS>
+            <ns0:COFINSAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>49.50</ns0:vBC>
+              <ns0:pCOFINS>7.6000</ns0:pCOFINS>
+              <ns0:vCOFINS>3.76</ns0:vCOFINS>
+            </ns0:COFINSAliq>
+          </ns0:COFINS>
+        </ns0:imposto>
+      </ns0:det>
+      <ns0:det nItem="2">
+        <ns0:prod>
+          <ns0:cProd>000000002235317004</ns0:cProd>
+          <ns0:cEAN />
+          <ns0:xProd>Sapatenis C0117 Fiveblu Grafite, 41</ns0:xProd>
+          <ns0:NCM>64051010</ns0:NCM>
+          <ns0:CFOP>6108</ns0:CFOP>
+          <ns0:uCom>PEC</ns0:uCom>
+          <ns0:qCom>1.0000</ns0:qCom>
+          <ns0:vUnCom>89.9000000000</ns0:vUnCom>
+          <ns0:vProd>89.90</ns0:vProd>
+          <ns0:cEANTrib />
+          <ns0:uTrib>PEC</ns0:uTrib>
+          <ns0:qTrib>1.0000</ns0:qTrib>
+          <ns0:vUnTrib>89.9000000000</ns0:vUnTrib>
+          <ns0:vDesc>43.01</ns0:vDesc>
+          <ns0:indTot>1</ns0:indTot>
+          <ns0:xPed>49774777</ns0:xPed>
+        </ns0:prod>
+        <ns0:imposto>
+          <ns0:ICMS>
+            <ns0:ICMS00>
+              <ns0:orig>0</ns0:orig>
+              <ns0:CST>00</ns0:CST>
+              <ns0:modBC>3</ns0:modBC>
+              <ns0:vBC>46.89</ns0:vBC>
+              <ns0:pICMS>7.0000</ns0:pICMS>
+              <ns0:vICMS>3.28</ns0:vICMS>
+            </ns0:ICMS00>
+          </ns0:ICMS>
+          <ns0:IPI>
+            <ns0:cEnq>999</ns0:cEnq>
+            <ns0:IPINT>
+              <ns0:CST>53</ns0:CST>
+            </ns0:IPINT>
+          </ns0:IPI>
+          <ns0:PIS>
+            <ns0:PISAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>46.89</ns0:vBC>
+              <ns0:pPIS>1.6500</ns0:pPIS>
+              <ns0:vPIS>0.77</ns0:vPIS>
+            </ns0:PISAliq>
+          </ns0:PIS>
+          <ns0:COFINS>
+            <ns0:COFINSAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>46.89</ns0:vBC>
+              <ns0:pCOFINS>7.6000</ns0:pCOFINS>
+              <ns0:vCOFINS>3.56</ns0:vCOFINS>
+            </ns0:COFINSAliq>
+          </ns0:COFINS>
+        </ns0:imposto>
+      </ns0:det>
+      <ns0:det nItem="3">
+        <ns0:prod>
+          <ns0:cProd>000000001189981002</ns0:cProd>
+          <ns0:cEAN />
+          <ns0:xProd>201-Sapatenis Masculino R750 Rato/Be, 39</ns0:xProd>
+          <ns0:NCM>64039990</ns0:NCM>
+          <ns0:CFOP>6108</ns0:CFOP>
+          <ns0:uCom>PEC</ns0:uCom>
+          <ns0:qCom>1.0000</ns0:qCom>
+          <ns0:vUnCom>89.9000000000</ns0:vUnCom>
+          <ns0:vProd>89.90</ns0:vProd>
+          <ns0:cEANTrib />
+          <ns0:uTrib>PEC</ns0:uTrib>
+          <ns0:qTrib>1.0000</ns0:qTrib>
+          <ns0:vUnTrib>89.9000000000</ns0:vUnTrib>
+          <ns0:vDesc>40.40</ns0:vDesc>
+          <ns0:indTot>1</ns0:indTot>
+          <ns0:xPed>49774777</ns0:xPed>
+        </ns0:prod>
+        <ns0:imposto>
+          <ns0:ICMS>
+            <ns0:ICMS00>
+              <ns0:orig>0</ns0:orig>
+              <ns0:CST>00</ns0:CST>
+              <ns0:modBC>3</ns0:modBC>
+              <ns0:vBC>49.50</ns0:vBC>
+              <ns0:pICMS>7.0000</ns0:pICMS>
+              <ns0:vICMS>3.47</ns0:vICMS>
+            </ns0:ICMS00>
+          </ns0:ICMS>
+          <ns0:IPI>
+            <ns0:cEnq>999</ns0:cEnq>
+            <ns0:IPINT>
+              <ns0:CST>53</ns0:CST>
+            </ns0:IPINT>
+          </ns0:IPI>
+          <ns0:PIS>
+            <ns0:PISAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>49.50</ns0:vBC>
+              <ns0:pPIS>1.6500</ns0:pPIS>
+              <ns0:vPIS>0.82</ns0:vPIS>
+            </ns0:PISAliq>
+          </ns0:PIS>
+          <ns0:COFINS>
+            <ns0:COFINSAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>49.50</ns0:vBC>
+              <ns0:pCOFINS>7.6000</ns0:pCOFINS>
+              <ns0:vCOFINS>3.76</ns0:vCOFINS>
+            </ns0:COFINSAliq>
+          </ns0:COFINS>
+        </ns0:imposto>
+      </ns0:det>
+      <ns0:det nItem="4">
+        <ns0:prod>
+          <ns0:cProd>000000001142722002</ns0:cProd>
+          <ns0:cEAN />
+          <ns0:xProd>201-Sapatenis Masculino R740 Grafite, 39</ns0:xProd>
+          <ns0:NCM>64039990</ns0:NCM>
+          <ns0:CFOP>6108</ns0:CFOP>
+          <ns0:uCom>PEC</ns0:uCom>
+          <ns0:qCom>1.0000</ns0:qCom>
+          <ns0:vUnCom>99.9000000000</ns0:vUnCom>
+          <ns0:vProd>99.90</ns0:vProd>
+          <ns0:cEANTrib />
+          <ns0:uTrib>PEC</ns0:uTrib>
+          <ns0:qTrib>1.0000</ns0:qTrib>
+          <ns0:vUnTrib>99.9000000000</ns0:vUnTrib>
+          <ns0:vDesc>47.79</ns0:vDesc>
+          <ns0:indTot>1</ns0:indTot>
+          <ns0:xPed>49774777</ns0:xPed>
+        </ns0:prod>
+        <ns0:imposto>
+          <ns0:ICMS>
+            <ns0:ICMS00>
+              <ns0:orig>0</ns0:orig>
+              <ns0:CST>00</ns0:CST>
+              <ns0:modBC>3</ns0:modBC>
+              <ns0:vBC>52.11</ns0:vBC>
+              <ns0:pICMS>7.0000</ns0:pICMS>
+              <ns0:vICMS>3.65</ns0:vICMS>
+            </ns0:ICMS00>
+          </ns0:ICMS>
+          <ns0:IPI>
+            <ns0:cEnq>999</ns0:cEnq>
+            <ns0:IPINT>
+              <ns0:CST>53</ns0:CST>
+            </ns0:IPINT>
+          </ns0:IPI>
+          <ns0:PIS>
+            <ns0:PISAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>52.11</ns0:vBC>
+              <ns0:pPIS>1.6500</ns0:pPIS>
+              <ns0:vPIS>0.86</ns0:vPIS>
+            </ns0:PISAliq>
+          </ns0:PIS>
+          <ns0:COFINS>
+            <ns0:COFINSAliq>
+              <ns0:CST>01</ns0:CST>
+              <ns0:vBC>52.11</ns0:vBC>
+              <ns0:pCOFINS>7.6000</ns0:pCOFINS>
+              <ns0:vCOFINS>3.96</ns0:vCOFINS>
+            </ns0:COFINSAliq>
+          </ns0:COFINS>
+        </ns0:imposto>
+      </ns0:det>
+      <ns0:total>
+        <ns0:ICMSTot>
+          <ns0:vBC>198.00</ns0:vBC>
+          <ns0:vICMS>13.87</ns0:vICMS>
+          <ns0:vICMSDeson>0.00</ns0:vICMSDeson>
+          <ns0:vBCST>0.00</ns0:vBCST>
+          <ns0:vST>0.00</ns0:vST>
+          <ns0:vProd>369.60</ns0:vProd>
+          <ns0:vFrete>0.00</ns0:vFrete>
+          <ns0:vSeg>0.00</ns0:vSeg>
+          <ns0:vDesc>171.60</ns0:vDesc>
+          <ns0:vII>0.00</ns0:vII>
+          <ns0:vIPI>0.00</ns0:vIPI>
+          <ns0:vPIS>3.27</ns0:vPIS>
+          <ns0:vCOFINS>15.04</ns0:vCOFINS>
+          <ns0:vOutro>0.00</ns0:vOutro>
+          <ns0:vNF>198.00</ns0:vNF>
+        </ns0:ICMSTot>
+      </ns0:total>
+      <ns0:transp>
+        <ns0:modFrete>1</ns0:modFrete>
+        <ns0:transporta>
+          <ns0:CNPJ>07575651003093</ns0:CNPJ>
+          <ns0:xNome>VRG LINHAS AEREAS SA</ns0:xNome>
+          <ns0:IE>0010392620189</ns0:IE>
+          <ns0:xEnder>TER DO AEROPORTO S/N</ns0:xEnder>
+          <ns0:xMun>CONFINS</ns0:xMun>
+          <ns0:UF>MG</ns0:UF>
+        </ns0:transporta>
+        <ns0:vol>
+          <ns0:qVol>0</ns0:qVol>
+          <ns0:nVol>00001</ns0:nVol>
+          <ns0:pesoL>3.790</ns0:pesoL>
+          <ns0:pesoB>3.790</ns0:pesoB>
+        </ns0:vol>
+      </ns0:transp>
+      <ns0:infAdic>
+        <ns0:infAdFisco>"Operacao contratada no ambito do comercio eletronico ou telemarketing conforme Regime Especial / e-PTA No:45.000009229-35, concedido pela SEFAZ/MG." Valor Aproximado dos impostos conf. lei 12741/12 Transp. Fiscal: R$ 32.18 ICMS: Partilha do Destino 7.92 ICMS: Fundo Combate a Pobreza 0.00</ns0:infAdFisco>
+      </ns0:infAdic>
+    </ns0:infNFe>
+    <ns1:Signature xmlns:ns1="http://www.w3.org/2000/09/xmldsig#">
+      <ns1:SignedInfo>
+        <ns1:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns1:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns1:Reference URI="#NFe31160811200418000673550010035830601384132439">
+          <ns1:Transforms>
+            <ns1:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns1:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns1:Transforms>
+          <ns1:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns1:DigestValue>xUKz5EUWn0Voirna2yhcmKNdjq8=</ns1:DigestValue>
+        </ns1:Reference>
+      </ns1:SignedInfo>
+      <ns1:SignatureValue>GSDNX9M9xA2rBomEwBc3JC/M0IaM8veM8yrvlzOsnxUQdLtHp6sajSwo7I9hyjsU4sVpot1b902T
+GfjNbAwYQPER0+eIkK/BYmj7BD29x/rkfrxMi09gTNBx1YIdU0WLsaPF6msP0H57uNsUpGqQ3bte
+ew3T1w51/raXpXrr5q4OseIGXWgOJE4IjAei7oWeMSwnCMLzjVcNfk1zzYpdyat9paVUVq6NK2HL
+TRy56d6C+acFSt5qiJZ/Xormm4zpUwtqHNAHG32b06GNKI6tFAq/O8LPGoIB0WGvQddSM1Kf72un
+UbTaj0LN/EuPSWHgR8tNz8bkDTLSu2tIbsgJpQ==</ns1:SignatureValue>
+      <ns1:KeyInfo>
+        <ns1:X509Data>
+          <ns1:X509Certificate>MIIHzTCCBbWgAwIBAgIIZ+mU1P4sdKwwDQYJKoZIhvcNAQELBQAwTDELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxKDAmBgNVBAMTH1NFUkFTQSBDZXJ0aWZpY2Fkb3JhIERpZ2l0YWwg
+djIwHhcNMTUxMDIwMTc1MjAwWhcNMTYxMDE5MTc1MjAwWjCB5DELMAkGA1UEBhMCQlIxEzARBgNV
+BAoTCklDUC1CcmFzaWwxFDASBgNVBAsTCyhFTSBCUkFOQ08pMRgwFgYDVQQLEw8wMDAwMDEwMDY1
+Mzc3MjkxFDASBgNVBAsTCyhFTSBCUkFOQ08pMRQwEgYDVQQLEwsoRU0gQlJBTkNPKTEUMBIGA1UE
+CxMLKEVNIEJSQU5DTykxFDASBgNVBAsTCyhFTSBCUkFOQ08pMRQwEgYDVQQLEwsoRU0gQlJBTkNP
+KTEiMCAGA1UEAxMZR0ZHIENPTUVSQ0lPIERJR0lUQUwgTFREQTCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAI40zaSGM9RFKhG8c7EhQhneKk8aEmbi9dmUUtDVoFHxwzdL/NzNilrKNU+3
+T6l86KUNZx3pqmA99v5oL03CBiSW1Ymq12AGtxc3AI33nT3rR+27AdB+qRA2ped+UgKk0hTsjPu6
+DFntDfhDe/Ueq7BDeXFhtIuB5Ok/ksK2dNnJh1mkzkmQMKfV0ZPcAApdxnK6gFluQ4ie0WAS3RqP
+JaCtMW14mTO7QsT0SrSodQbPcV48RM1NPN8fZ1eR9ZnWdgPzcVFnA/RpvAqX+DsQvD1gu9I0FvMu
+83jJDWXO5V+Sv+paQPI9Efw8RQ3sHZbsWAbkstR95/IjaNfFAEq5LzkCAwEAAaOCAxgwggMUMIGX
+BggrBgEFBQcBAQSBijCBhzBHBggrBgEFBQcwAoY7aHR0cDovL3d3dy5jZXJ0aWZpY2Fkb2RpZ2l0
+YWwuY29tLmJyL2NhZGVpYXMvc2VyYXNhY2R2Mi5wN2IwPAYIKwYBBQUHMAGGMGh0dHA6Ly9vY3Nw
+LmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvc2VyYXNhY2R2MjAfBgNVHSMEGDAWgBSa4IMQ1yab
+6bragrKBzjka04dwhjBxBgNVHSAEajBoMGYGBmBMAQIBBjBcMFoGCCsGAQUFBwIBFk5odHRwOi8v
+cHVibGljYWNhby5jZXJ0aWZpY2Fkb2RpZ2l0YWwuY29tLmJyL3JlcG9zaXRvcmlvL2RwYy9kZWNs
+YXJhY2FvLXNjZC5wZGYwgfAGA1UdHwSB6DCB5TBJoEegRYZDaHR0cDovL3d3dy5jZXJ0aWZpY2Fk
+b2RpZ2l0YWwuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJhc2FjZHYyLmNybDBDoEGgP4Y9aHR0
+cDovL2xjci5jZXJ0aWZpY2Fkb3MuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJhc2FjZHYyLmNy
+bDBToFGgT4ZNaHR0cDovL3JlcG9zaXRvcmlvLmljcGJyYXNpbC5nb3YuYnIvbGNyL1NlcmFzYS9y
+ZXBvc2l0b3Jpby9sY3Ivc2VyYXNhY2R2Mi5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQG
+CCsGAQUFBwMCBggrBgEFBQcDBDCBwQYDVR0RBIG5MIG2gRtGQUJJTy5GUkVJVEFTQERBRklUSS5D
+T00uQlKgPgYFYEwBAwSgNRMzMDkxMTE5ODI0MTYyMzk4NzgwNjAwMDAwMDAwMDAwMDAwMDAwMzYx
+NDE5NDA1U1NQIFNQoCMGBWBMAQMCoBoTGFBISUxJUFAgUEFVTCBNQVJJRSBQT1ZFTKAZBgVgTAED
+A6AQEw4xMTIwMDQxODAwMDE2OaAXBgVgTAEDB6AOEwwwMDAwMDAwMDAwMDAwDQYJKoZIhvcNAQEL
+BQADggIBABd23JZ3RKLs/2Bt7JQcMDrZQV97uXlc6iuY4987AEMAMr6HbPkTVGllhLqA/VZvYrow
+33D9vup83WtqcyWwqvdr2YRuO49/tu2Hhfk6XBsB3EYcXtdY7WG4NtAdEwCvqVUJUhw2Sq/xJLh1
+kz91/6vlmYUjSkam9FtpXq6m+TpVfGwKaO8PkT8l4xcnyV/ZSN1umO7q0KOzEcCxSjo1nO/TyRQE
+9/LsBIphg/w5M9cAWOnioWLbwwWgvXaNcCdsdF6hqDoWRRFZbL1UZ6C3k2eC5nOCP18C0yibAqjy
+SGDktyMAPV6mQbhvJz86THstdMjJr+mFdibqfQW3eKoNNCJybhjzHjpbwdo/iiBz0Q5lB47EO9uh
+RUbO2bTHbLzai2rAdNCG1h/VrlFSFq/26pNKl6p0Zn/QvtJx/L5zHMd/XIEEMZNHFxdFV0avTSD5
+BjKVKPsOJ1VD448dmTi3o32Hp0qr1jeIows++Q7UXxcBhWYmO9RdiEZKb/ta39q7bqwcrI2NzIt8
+uAe+8+69DcBBUrOddAKZf3RNI77STHQQQ/Ho99ecmJ+8q7SbZoaSAZKV45dqUB+Cvdi1gqUp0D4N
+L5R0LZenypPna8MnwKGYPB0hL25ZRJS4uebgo1iagW5Ns737H46c7/DFnzaYvVxBBjo8iuzTq0Q8
+0buvdZuU</ns1:X509Certificate>
+        </ns1:X509Data>
+      </ns1:KeyInfo>
+    </ns1:Signature>
+  </ns0:NFe>
+  <ns0:protNFe versao="3.10">
+    <ns0:infProt>
+      <ns0:tpAmb>1</ns0:tpAmb>
+      <ns0:verAplic>14_0_8</ns0:verAplic>
+      <ns0:chNFe>31160811200418000673550010035830601384132439</ns0:chNFe>
+      <ns0:dhRecbto>2016-08-16T06:26:17-03:00</ns0:dhRecbto>
+      <ns0:nProt>131162246556695</ns0:nProt>
+      <ns0:digVal>xUKz5EUWn0Voirna2yhcmKNdjq8=</ns0:digVal>
+      <ns0:cStat>100</ns0:cStat>
+      <ns0:xMotivo>Autorizado o uso da NF-e</ns0:xMotivo>
+    </ns0:infProt>
+  </ns0:protNFe>
+</ns0:nfeProc>

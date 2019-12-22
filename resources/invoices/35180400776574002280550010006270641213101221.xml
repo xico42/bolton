@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nfeProc xmlns="http://www.portalfiscal.inf.br/nfe" versao="3.10">
+  <NFe>
+    <infNFe versao="3.10" Id="NFe35180400776574002280550010006270641213101221">
+      <ide>
+        <cUF>35</cUF>
+        <cNF>21310122</cNF>
+        <natOp>Venda Merc Adq Terc N/Contrib</natOp>
+        <indPag>2</indPag>
+        <mod>55</mod>
+        <serie>1</serie>
+        <nNF>627064</nNF>
+        <dhEmi>2018-04-03T11:48:00-03:00</dhEmi>
+        <dhSaiEnt>2018-04-03T11:48:00-03:00</dhSaiEnt>
+        <tpNF>1</tpNF>
+        <idDest>2</idDest>
+        <cMunFG>3522505</cMunFG>
+        <tpImp>1</tpImp>
+        <tpEmis>1</tpEmis>
+        <cDV>1</cDV>
+        <tpAmb>1</tpAmb>
+        <finNFe>1</finNFe>
+        <indFinal>1</indFinal>
+        <indPres>2</indPres>
+        <procEmi>0</procEmi>
+        <verProc>ELDOC</verProc>
+        <NFref>
+          <refNFe>35180400776574000741550030296193741101001876</refNFe>
+        </NFref>
+      </ide>
+      <emit>
+        <CNPJ>00776574002280</CNPJ>
+        <xNome>B2W Companhia Digital</xNome>
+        <enderEmit>
+          <xLgr>Rua Estrada dos Alpes</xLgr>
+          <nro>555</nro>
+          <xBairro>Itaqui</xBairro>
+          <cMun>3522505</cMun>
+          <xMun>Itapevi</xMun>
+          <UF>SP</UF>
+          <CEP>06696150</CEP>
+          <cPais>1058</cPais>
+          <xPais>BRASIL</xPais>
+        </enderEmit>
+        <IE>373187200115</IE>
+        <IEST>067445390</IEST>
+        <CRT>3</CRT>
+      </emit>
+      <dest>
+        <CPF>74033607185</CPF>
+        <xNome>Fulana de Tal das Dores</xNome>
+        <enderDest>
+          <xLgr>RUA BONS AMIGOS</xLgr>
+          <nro>1021</nro>
+          <xBairro>PLANALTO AYRTON SENNA</xBairro>
+          <cMun>2304400</cMun>
+          <xMun>Fortaleza</xMun>
+          <UF>CE</UF>
+          <CEP>60750663</CEP>
+          <cPais>1058</cPais>
+          <xPais>Brasil</xPais>
+          <fone>85665875251</fone>
+        </enderDest>
+        <indIEDest>9</indIEDest>
+      </dest>
+      <det nItem="1">
+        <prod>
+          <cProd>7323621</cProd>
+          <cEAN>9788599296943</cEAN>
+          <xProd>LIVRO - GUIA DO MOCHILEIRO DAS GALAXIAS. O</xProd>
+          <NCM>49019900</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>8.8700</vUnCom>
+          <vProd>8.87</vProd>
+          <cEANTrib>9788599296943</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>8.8700</vUnTrib>
+          <vFrete>0.88</vFrete>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>2.17</vTotTrib>
+          <ICMS>
+            <ICMS40>
+              <orig>0</orig>
+              <CST>40</CST>
+            </ICMS40>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="2">
+        <prod>
+          <cProd>7323625</cProd>
+          <cEAN>9788599296950</cEAN>
+          <xProd>LIVRO - RESTAURANTE DO FIM DO UNIVERSO -  COLECAO GUIA DOS MOCHILEIROS DAS GALAXIAS</xProd>
+          <NCM>49019900</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>8.8700</vUnCom>
+          <vProd>8.87</vProd>
+          <cEANTrib>9788599296950</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>8.8700</vUnTrib>
+          <vFrete>0.90</vFrete>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>2.17</vTotTrib>
+          <ICMS>
+            <ICMS40>
+              <orig>0</orig>
+              <CST>40</CST>
+            </ICMS40>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="3">
+        <prod>
+          <cProd>7323627</cProd>
+          <cEAN>9788599296967</cEAN>
+          <xProd>LIVRO - VIDA. O UNIVERSO E TUDO MAIS. A -  COLECAO GUIA DOS MOCHILEIROS DAS GALAXIAS</xProd>
+          <NCM>49019900</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>8.8700</vUnCom>
+          <vProd>8.87</vProd>
+          <cEANTrib>9788599296967</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>8.8700</vUnTrib>
+          <vFrete>1.89</vFrete>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>2.39</vTotTrib>
+          <ICMS>
+            <ICMS40>
+              <orig>0</orig>
+              <CST>40</CST>
+            </ICMS40>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="4">
+        <prod>
+          <cProd>7323633</cProd>
+          <cEAN>9788599296974</cEAN>
+          <xProd>LIVRO - ATE MAIS. E OBRIGADO PELOS PEIXES! - VOL.4 -  COLECAO GUIA DOS MOCHILEIROS DAS GALAXIAS</xProd>
+          <NCM>49019900</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>8.8700</vUnCom>
+          <vProd>8.87</vProd>
+          <cEANTrib>9788599296974</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>8.8700</vUnTrib>
+          <vFrete>2.31</vFrete>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>2.48</vTotTrib>
+          <ICMS>
+            <ICMS40>
+              <orig>0</orig>
+              <CST>40</CST>
+            </ICMS40>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <det nItem="5">
+        <prod>
+          <cProd>7323635</cProd>
+          <cEAN>9788599296981</cEAN>
+          <xProd>LIVRO - PRATICAMENTE INOFENSIVA - VOL. 5 -  COLECAO GUIA DOS MOCHILEIROS DAS GALAXIAS</xProd>
+          <NCM>49019900</NCM>
+          <CFOP>6108</CFOP>
+          <uCom>PC</uCom>
+          <qCom>1</qCom>
+          <vUnCom>8.8500</vUnCom>
+          <vProd>8.85</vProd>
+          <cEANTrib>9788599296981</cEANTrib>
+          <uTrib>PC</uTrib>
+          <qTrib>1</qTrib>
+          <vUnTrib>8.8500</vUnTrib>
+          <vFrete>1.01</vFrete>
+          <indTot>1</indTot>
+        </prod>
+        <imposto>
+          <vTotTrib>2.18</vTotTrib>
+          <ICMS>
+            <ICMS40>
+              <orig>0</orig>
+              <CST>40</CST>
+            </ICMS40>
+          </ICMS>
+          <PIS>
+            <PISNT>
+              <CST>06</CST>
+            </PISNT>
+          </PIS>
+          <COFINS>
+            <COFINSNT>
+              <CST>06</CST>
+            </COFINSNT>
+          </COFINS>
+        </imposto>
+      </det>
+      <total>
+        <ICMSTot>
+          <vBC>0.00</vBC>
+          <vICMS>0.00</vICMS>
+          <vICMSDeson>0.00</vICMSDeson>
+          <vBCST>0.00</vBCST>
+          <vST>0.00</vST>
+          <vProd>44.33</vProd>
+          <vFrete>6.99</vFrete>
+          <vSeg>0.00</vSeg>
+          <vDesc>0.00</vDesc>
+          <vII>0.00</vII>
+          <vIPI>0.00</vIPI>
+          <vPIS>0.00</vPIS>
+          <vCOFINS>0.00</vCOFINS>
+          <vOutro>0.00</vOutro>
+          <vNF>51.32</vNF>
+          <vTotTrib>11.39</vTotTrib>
+        </ICMSTot>
+      </total>
+      <transp>
+        <modFrete>0</modFrete>
+        <vol>
+          <qVol>1</qVol>
+          <esp>VOLS</esp>
+          <pesoL>1.730</pesoL>
+          <pesoB>1.730</pesoB>
+        </vol>
+      </transp>
+      <infAdic>
+        <infCpl>Contribuinte detentor do Regime Especial processo n. 007903/2016 nos termos do Decreto n. 57.608. de 12 de dezembro de 2011. EC 87/2015 - TOTAL FECP: R$        0.00 TOTAL ICMS UF ORIGEM: R$        0.00 TOTAL ICMS UF DESTINO: R$        0.00 Aliq ICMS reduzida em venda de produto fab conf Lei 8248/91. Saida interna/interestadual a consumidor final. conf Art 155. paragrafo segundo . VII. b da CF e Livro I. Titulo III. Art 14. IX. RICMS/RJ N.Pedido: 03-499354779. N.Entrega: 349935477901. Trib aprox R$          2.15 Federal e R$          9.24 Estadual. Fonte: IBPT/FECOMERCIO SP.</infCpl>
+        <obsCont xCampo="DevCO">
+          <xTexto>FT_RE</xTexto>
+        </obsCont>
+        <obsCont xCampo="SiglaERP">
+          <xTexto>UMBRELLA</xTexto>
+        </obsCont>
+        <obsCont xCampo="Logo">
+          <xTexto>SUBA</xTexto>
+        </obsCont>
+      </infAdic>
+    </infNFe>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#NFe35180400776574002280550010006270641213101221">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>4Gb6PgM8g/7NJ9QU8i5ys1U5C3k=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>gpgn9pVDgeBe+QM8M97Plk2r7sOcZI9tKZOhI7nh2OjD3lFs7Pvvi21xI8btMul8QGlpFu/BNeYxN7rcd3ZqN3HR+g0xvQUNhXc9D7/dT8SimTjuJZQp5hg7bqlzIwoqeOeRW434pDYY07/lgHDle3rG9Nwakzp4G8G7UztOyWnc1KY6QvOdAToFau72Tk2FkJ+szWxesTln2qEGtkXLdKYcekzppk/0vqXASl0ky14g0gllg2h8Xl9PnSeA6baeXAxaDw/Pq+UwKO02pYrSoV6QVHP4JUTGCX+VbkX7A0JxKpBureMaVIVv+en++N5AG98ELz1ZdNkSp7icw4SarA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </NFe>
+  <protNFe versao="3.10">
+    <infProt>
+      <tpAmb>1</tpAmb>
+      <verAplic>SP_NFE_PL_008i2</verAplic>
+      <chNFe>35180400776574002280550010006270641213101221</chNFe>
+      <dhRecbto>2018-04-03T11:48:38-03:00</dhRecbto>
+      <nProt>135180221522378</nProt>
+      <digVal>4Gb6PgM8g/7NJ9QU8i5ys1U5C3k=</digVal>
+      <cStat>100</cStat>
+      <xMotivo>Autorizado o uso da NF-e</xMotivo>
+    </infProt>
+  </protNFe>
+</nfeProc>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b2wo:nfeProc xmlns:b2wo="http://www.portalfiscal.inf.br/nfe" xmlns="http://www.portalfiscal.inf.br/nfe/wsdl/NFeRetAutorizacao4" xmlns:ns3="http://www.w3.org/2000/09/xmldsig#" versao="4.00">
+  <b2wo:NFe>
+    <b2wo:infNFe versao="4.00" Id="NFe33191100776574001390550050215366301101554847">
+      <b2wo:ide>
+        <b2wo:cUF>33</b2wo:cUF>
+        <b2wo:cNF>10155484</b2wo:cNF>
+        <b2wo:natOp>Venda Merc Adq Terc N/Contrib</b2wo:natOp>
+        <b2wo:mod>55</b2wo:mod>
+        <b2wo:serie>5</b2wo:serie>
+        <b2wo:nNF>21536630</b2wo:nNF>
+        <b2wo:dhEmi>2019-11-16T15:28:00-03:00</b2wo:dhEmi>
+        <b2wo:dhSaiEnt>2019-11-16T15:28:00-03:00</b2wo:dhSaiEnt>
+        <b2wo:tpNF>1</b2wo:tpNF>
+        <b2wo:idDest>2</b2wo:idDest>
+        <b2wo:cMunFG>3305554</b2wo:cMunFG>
+        <b2wo:tpImp>1</b2wo:tpImp>
+        <b2wo:tpEmis>1</b2wo:tpEmis>
+        <b2wo:cDV>7</b2wo:cDV>
+        <b2wo:tpAmb>1</b2wo:tpAmb>
+        <b2wo:finNFe>1</b2wo:finNFe>
+        <b2wo:indFinal>1</b2wo:indFinal>
+        <b2wo:indPres>2</b2wo:indPres>
+        <b2wo:procEmi>0</b2wo:procEmi>
+        <b2wo:verProc>FAZEMU</b2wo:verProc>
+      </b2wo:ide>
+      <b2wo:emit>
+        <b2wo:CNPJ>00776574001390</b2wo:CNPJ>
+        <b2wo:xNome>B2W Companhia Digital</b2wo:xNome>
+        <b2wo:enderEmit>
+          <b2wo:xLgr>Est de Miguel Pereira</b2wo:xLgr>
+          <b2wo:nro>125</b2wo:nro>
+          <b2wo:xCpl>Carretao lote 151/30 e 151/27</b2wo:xCpl>
+          <b2wo:xBairro>São Miguel</b2wo:xBairro>
+          <b2wo:cMun>3305554</b2wo:cMun>
+          <b2wo:xMun>Seropedica</b2wo:xMun>
+          <b2wo:UF>RJ</b2wo:UF>
+          <b2wo:CEP>23893890</b2wo:CEP>
+          <b2wo:cPais>1058</b2wo:cPais>
+          <b2wo:xPais>BRASIL</b2wo:xPais>
+        </b2wo:enderEmit>
+        <b2wo:IE>79538914</b2wo:IE>
+        <b2wo:IEST>819011501115</b2wo:IEST>
+        <b2wo:CRT>3</b2wo:CRT>
+      </b2wo:emit>
+      <b2wo:dest>
+        <b2wo:CPF>05475397384</b2wo:CPF>
+        <b2wo:xNome>John Doe</b2wo:xNome>
+        <b2wo:enderDest>
+          <b2wo:xLgr>AVENIDA MARIA ANTONIA CAMARGO DE OLIVEIRA</b2wo:xLgr>
+          <b2wo:nro>781</b2wo:nro>
+          <b2wo:xBairro>JARDIM NOVA AMERICA</b2wo:xBairro>
+          <b2wo:cMun>3503208</b2wo:cMun>
+          <b2wo:xMun>Araraquara</b2wo:xMun>
+          <b2wo:UF>SP</b2wo:UF>
+          <b2wo:CEP>14800370</b2wo:CEP>
+          <b2wo:cPais>1058</b2wo:cPais>
+          <b2wo:xPais>Brasil</b2wo:xPais>
+          <b2wo:fone>16487525474</b2wo:fone>
+        </b2wo:enderDest>
+        <b2wo:indIEDest>9</b2wo:indIEDest>
+      </b2wo:dest>
+      <b2wo:det nItem="1">
+        <b2wo:prod>
+          <b2wo:cProd>134256052</b2wo:cProd>
+          <b2wo:cEAN>7892597348480</b2wo:cEAN>
+          <b2wo:xProd>SMARTPHONE MOTOROLA MOTO G7 POWER 64GB DUAL CHIP ANDROID PIE - 9.0 TELA 6.2" 1.8 GHZ OCTA-CORE 4G CAMERA 12MP - AZUL NAV</b2wo:xProd>
+          <b2wo:NCM>85171231</b2wo:NCM>
+          <b2wo:CEST>2105301</b2wo:CEST>
+          <b2wo:CFOP>6108</b2wo:CFOP>
+          <b2wo:uCom>PC</b2wo:uCom>
+          <b2wo:qCom>1</b2wo:qCom>
+          <b2wo:vUnCom>999.0000</b2wo:vUnCom>
+          <b2wo:vProd>999.00</b2wo:vProd>
+          <b2wo:cEANTrib>7892597348480</b2wo:cEANTrib>
+          <b2wo:uTrib>PC</b2wo:uTrib>
+          <b2wo:qTrib>1</b2wo:qTrib>
+          <b2wo:vUnTrib>999.0000</b2wo:vUnTrib>
+          <b2wo:indTot>1</b2wo:indTot>
+        </b2wo:prod>
+        <b2wo:imposto>
+          <b2wo:vTotTrib>248.25</b2wo:vTotTrib>
+          <b2wo:ICMS>
+            <b2wo:ICMS00>
+              <b2wo:orig>4</b2wo:orig>
+              <b2wo:CST>00</b2wo:CST>
+              <b2wo:modBC>3</b2wo:modBC>
+              <b2wo:vBC>999.00</b2wo:vBC>
+              <b2wo:pICMS>12.00</b2wo:pICMS>
+              <b2wo:vICMS>119.88</b2wo:vICMS>
+            </b2wo:ICMS00>
+          </b2wo:ICMS>
+          <b2wo:PIS>
+            <b2wo:PISAliq>
+              <b2wo:CST>01</b2wo:CST>
+              <b2wo:vBC>999.00</b2wo:vBC>
+              <b2wo:pPIS>1.65</b2wo:pPIS>
+              <b2wo:vPIS>16.48</b2wo:vPIS>
+            </b2wo:PISAliq>
+          </b2wo:PIS>
+          <b2wo:COFINS>
+            <b2wo:COFINSAliq>
+              <b2wo:CST>01</b2wo:CST>
+              <b2wo:vBC>999.00</b2wo:vBC>
+              <b2wo:pCOFINS>7.60</b2wo:pCOFINS>
+              <b2wo:vCOFINS>75.92</b2wo:vCOFINS>
+            </b2wo:COFINSAliq>
+          </b2wo:COFINS>
+          <b2wo:ICMSUFDest>
+            <b2wo:vBCUFDest>0.00</b2wo:vBCUFDest>
+            <b2wo:vBCFCPUFDest>0.00</b2wo:vBCFCPUFDest>
+            <b2wo:pFCPUFDest>0.00</b2wo:pFCPUFDest>
+            <b2wo:pICMSUFDest>12.00</b2wo:pICMSUFDest>
+            <b2wo:pICMSInter>12.00</b2wo:pICMSInter>
+            <b2wo:pICMSInterPart>100.00</b2wo:pICMSInterPart>
+            <b2wo:vFCPUFDest>0.00</b2wo:vFCPUFDest>
+            <b2wo:vICMSUFDest>0.00</b2wo:vICMSUFDest>
+            <b2wo:vICMSUFRemet>0.00</b2wo:vICMSUFRemet>
+          </b2wo:ICMSUFDest>
+        </b2wo:imposto>
+        <b2wo:infAdProd>Produto fabricado conforme PPB Lei Federal 8.248/91 Portaria MCT/MDIC/MF: 760. de 13/12/2001 DOU 14/12/2001. Fabricado por FLEXTRONICS INTERNATIONAL TECNOLOGIA LTDA. ICMS reduzido para 12% em SP conf. Inciso I. Art. 27. Anexo II do RICMS/SP c/c Inciso I. Art. 1 da Resolucao SF 14/2013.</b2wo:infAdProd>
+      </b2wo:det>
+      <b2wo:total>
+        <b2wo:ICMSTot>
+          <b2wo:vBC>999.00</b2wo:vBC>
+          <b2wo:vICMS>119.88</b2wo:vICMS>
+          <b2wo:vICMSDeson>0.00</b2wo:vICMSDeson>
+          <b2wo:vFCPUFDest>0.00</b2wo:vFCPUFDest>
+          <b2wo:vICMSUFDest>0.00</b2wo:vICMSUFDest>
+          <b2wo:vICMSUFRemet>0.00</b2wo:vICMSUFRemet>
+          <b2wo:vFCP>0.00</b2wo:vFCP>
+          <b2wo:vBCST>0.00</b2wo:vBCST>
+          <b2wo:vST>0.00</b2wo:vST>
+          <b2wo:vFCPST>0.00</b2wo:vFCPST>
+          <b2wo:vFCPSTRet>0.00</b2wo:vFCPSTRet>
+          <b2wo:vProd>999.00</b2wo:vProd>
+          <b2wo:vFrete>0.00</b2wo:vFrete>
+          <b2wo:vSeg>0.00</b2wo:vSeg>
+          <b2wo:vDesc>0.00</b2wo:vDesc>
+          <b2wo:vII>0.00</b2wo:vII>
+          <b2wo:vIPI>0.00</b2wo:vIPI>
+          <b2wo:vIPIDevol>0.00</b2wo:vIPIDevol>
+          <b2wo:vPIS>16.48</b2wo:vPIS>
+          <b2wo:vCOFINS>75.92</b2wo:vCOFINS>
+          <b2wo:vOutro>0.00</b2wo:vOutro>
+          <b2wo:vNF>999.00</b2wo:vNF>
+          <b2wo:vTotTrib>248.25</b2wo:vTotTrib>
+        </b2wo:ICMSTot>
+      </b2wo:total>
+      <b2wo:transp>
+        <b2wo:modFrete>0</b2wo:modFrete>
+        <b2wo:vol>
+          <b2wo:qVol>1</b2wo:qVol>
+          <b2wo:esp>VOLS</b2wo:esp>
+          <b2wo:pesoL>0.390</b2wo:pesoL>
+          <b2wo:pesoB>0.390</b2wo:pesoB>
+        </b2wo:vol>
+      </b2wo:transp>
+      <b2wo:pag>
+        <b2wo:detPag>
+          <b2wo:indPag>1</b2wo:indPag>
+          <b2wo:tPag>03</b2wo:tPag>
+          <b2wo:vPag>999.00</b2wo:vPag>
+          <b2wo:card>
+            <b2wo:tpIntegra>1</b2wo:tpIntegra>
+            <b2wo:CNPJ>01027058000191</b2wo:CNPJ>
+            <b2wo:tBand>02</b2wo:tBand>
+            <b2wo:cAut>903729</b2wo:cAut>
+          </b2wo:card>
+        </b2wo:detPag>
+      </b2wo:pag>
+      <b2wo:infAdic>
+        <b2wo:infCpl>Lei n 5.817/10 - PROCON-RJ: tel. 151. end. Av. Rio Branco. 25 - 5 andar. Centro/RJ. CODECON: tel. 0800 282 7060. end. R. da Alfândega. 8. Centro/RJ. Regime Especial - Processo GDOC n° 51257-1078128/2013. N.Pedido: 02-717159392. N.Entrega: 271715939201. Trib aprox R$ 108.39 Federal e R$ 139.86 Estadual. Fonte: IBPT/FECOMERCIO RJ. EC 87/2015 - TOTAL FECP: R$ 0.00 TOTAL ICMS UF ORIGEM: R$ 0.00 TOTAL ICMS UF DESTINO: R$ 0.00 - Item: 134256052 Serie: 352195103313658</b2wo:infCpl>
+        <b2wo:obsCont xCampo="DevCO">
+          <b2wo:xTexto>FT</b2wo:xTexto>
+        </b2wo:obsCont>
+        <b2wo:obsCont xCampo="SiglaERP">
+          <b2wo:xTexto>UMBRELLA</b2wo:xTexto>
+        </b2wo:obsCont>
+        <b2wo:obsCont xCampo="Callback">
+          <b2wo:xTexto>WMS</b2wo:xTexto>
+        </b2wo:obsCont>
+        <b2wo:obsCont xCampo="ParcDANFE">
+          <b2wo:xTexto>FAZEMU</b2wo:xTexto>
+        </b2wo:obsCont>
+        <b2wo:obsCont xCampo="Logo">
+          <b2wo:xTexto>ACOM</b2wo:xTexto>
+        </b2wo:obsCont>
+      </b2wo:infAdic>
+    </b2wo:infNFe>
+    <ns3:Signature>
+      <ns3:SignedInfo>
+        <ns3:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+        <ns3:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <ns3:Reference URI="#NFe33191100776574001390550050215366301101554847">
+          <ns3:Transforms>
+            <ns3:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <ns3:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+          </ns3:Transforms>
+          <ns3:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <ns3:DigestValue>xYc+v3dbDLXaqr4FKPQU3hcJ6Gs=</ns3:DigestValue>
+        </ns3:Reference>
+      </ns3:SignedInfo>
+      <ns3:SignatureValue>KvCgYQa++ZJx5rDyQ617Zv+sP6uIqknIXGaXqLqh3YRO3SN2uD73U/teSPjXEqWaXA7ad1mo/MQ9LGwAsc8bWiE2cGjC5KRgeneMJAGrgq7wGM4zbYVrPxABycM6q6ZbcjstNCnGjCgmwv7JqZkaWoJEBGoHEPNs0VgTol7iB6IW6l52OjPrZ6Z+FRfCz1FhdwoVsbKQ2+69BtFRSP3kHA/uAMd6s0vyBiJ9z3KsntcAtMMN8T0Rr8eHkwyWQi6xwN3nTPHeiLOe3TBlnjo7W0xssAKCK8PXDZIPgX/IrfN+NhKTvDUGzqezQZgHOj90VEE4gQ8eEChBX2DmvgMnWw==</ns3:SignatureValue>
+      <ns3:KeyInfo>
+        <ns3:X509Data>
+          <ns3:X509Certificate>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</ns3:X509Certificate>
+        </ns3:X509Data>
+      </ns3:KeyInfo>
+    </ns3:Signature>
+  </b2wo:NFe>
+  <b2wo:protNFe versao="4.00">
+    <b2wo:infProt>
+      <b2wo:tpAmb>1</b2wo:tpAmb>
+      <b2wo:verAplic>SVRS201910021031</b2wo:verAplic>
+      <b2wo:chNFe>33191100776574001390550050215366301101554847</b2wo:chNFe>
+      <b2wo:dhRecbto>2019-11-16T15:28:40-03:00</b2wo:dhRecbto>
+      <b2wo:nProt>333190163054226</b2wo:nProt>
+      <b2wo:digVal>xYc+v3dbDLXaqr4FKPQU3hcJ6Gs=</b2wo:digVal>
+      <b2wo:cStat>100</b2wo:cStat>
+      <b2wo:xMotivo>Autorizado o uso da NF-e</b2wo:xMotivo>
+    </b2wo:infProt>
+  </b2wo:protNFe>
+</b2wo:nfeProc>
