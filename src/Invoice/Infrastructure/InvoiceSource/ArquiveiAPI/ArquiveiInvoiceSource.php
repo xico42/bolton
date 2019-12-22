@@ -53,6 +53,10 @@ class ArquiveiInvoiceSource implements InvoiceSource
     }
 
 
+    /**
+     * @param array<mixed> $rawData
+     * @return array<mixed>
+     */
     private function processData(array $rawData): array
     {
         $data = $rawData['data'] ?? [];

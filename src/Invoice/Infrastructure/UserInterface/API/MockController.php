@@ -5,19 +5,30 @@ declare(strict_types=1);
 namespace Bolton\Invoice\Infrastructure\UserInterface\API;
 
 use Bolton\Invoice\Infrastructure\InvoiceSource\ArquiveiAPI\Mock\MockInvoiceXmlProvider;
-use SplFileInfo;
-use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Zend\Paginator\Adapter\ArrayAdapter;
 use Zend\Paginator\Paginator;
 use Zend\Paginator\ScrollingStyle\Sliding;
+use Swagger\Annotations as SWG;
 
 class MockController
 {
     /**
+     * Fakes Arquivei API
+     *
+     * This is mainly used by the system and integration tests
+     *
+     * @SWG\Tag(name="Mock")
+     *
      * @Route("/api/mock/invoices", methods={"GET"})
+     *
+     * @SWG\Response(
+     *     response="200",
+     *     description="Response identical to Arquivei's API"
+     * )
+     *
      * @param Request $request
      * @return JsonResponse
      */

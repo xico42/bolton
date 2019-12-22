@@ -4,11 +4,14 @@ declare(strict_types=1);
 
 namespace Bolton\Invoice\Infrastructure\InvoiceSource\ArquiveiAPI\Mock;
 
-use SplFileInfo;
 use Symfony\Component\Finder\Finder;
+use Symfony\Component\Finder\SplFileInfo;
 
 class MockInvoiceXmlProvider
 {
+    /**
+     * @return array<array>
+     */
     public function getAll(): array
     {
         $data = [];
