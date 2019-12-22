@@ -6,7 +6,7 @@ PHPUNIT = $(PHP) vendor/bin/phpunit
 WAIT = $(DOCKER_COMPOSE) run wait
 
 .PHONY: it
-it: files up wait vendor migration quality tests
+setup: files up wait vendor migration quality tests
 
 .PHONY: files
 files: docker-compose.yaml .env.local phpunit.xml
@@ -58,4 +58,7 @@ integration: phpunit.xml vendor
 .PHONY: system
 system: phpunit.xml vendor
 	@$(PHPUNIT) --testsuite System
+
+sync:
+	@$(BOLTON) bolton:sync-invoices --no-debug
 

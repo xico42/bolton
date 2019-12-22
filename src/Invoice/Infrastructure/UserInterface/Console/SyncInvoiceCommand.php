@@ -22,15 +22,16 @@ class SyncInvoiceCommand extends Command
         $this->importer = $importer;
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->setName('bolton:sync-invoices')
             ->setDescription('Syncs invoices with external sources');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $this->importer->import();
+        return 0;
     }
 }

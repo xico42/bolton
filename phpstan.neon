@@ -12,6 +12,7 @@ parameters:
   excludes_analyse:
     - '%rootDir%/../../../src/Kernel.php'
     - '%rootDir%/../../../src/Invoice/Infrastructure/Framework/Migrations'
+    - '%rootDir%/../../../src/Invoice/Infrastructure/UserInterface/API/MockController.php'
   symfony:
     container_xml_path: '%currentWorkingDirectory%/var/cache/dev/srcBolton_KernelDevDebugContainer.xml'
   ignoreErrors:
